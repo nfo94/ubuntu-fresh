@@ -54,12 +54,12 @@ sudo apt install vim
 echo 'Installing Vundle...'
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+echo 'Installing OpenSSl lib'
+sudo apt-get install libssl-dev
+
 # CMake is an open-source, cross-platform family of tools designed to build, test and package software:
 echo 'Installing CMake...'
 sudo snap install cmake --classic
-
-echo 'Installing OpenSSl lib'
-sudo apt-get install libssl-dev
 
 # Install Intellij Commmunity, and IDE:
 echo 'Installing Intellij...'
