@@ -58,6 +58,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo 'Installing CMake...'
 sudo snap install cmake --classic
 
+echo 'Installing OpenSSl lib'
+sudo apt-get install libssl-dev
+
 # Install Intellij Commmunity, and IDE:
 echo 'Installing Intellij...'
 sudo snap install intellij-idea-community --classic
